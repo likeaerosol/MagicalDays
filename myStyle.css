@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'YUniverse-B';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_yuniverse@1.0/YUniverse-B.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    color: white;
+    font-family: 'YUniverse-B';
+    font-size: 18px;
+}
+#lageText{
+    font-size: 2.5rem;
+    margin: 0;
+}
+#subText{
+    color: white;
+    font-size: 3rem;
+    margin: 10% 0%;
+}
+#backMargin{
+    margin: 7% 0%;
+}
+
+body{
+    background: linear-gradient(#fdaed5, #a6b8fd, #c291e2);
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+#mainTitle{
+    margin: 7% 0% 3% 0%;
+}
+#titleText{
+    color: white;
+    margin: 3% 0% 7% 0%;
+    font-size: 1.3rem;
+}
+
+
+.mainContext{
+    display: flex;
+}
+#mainPic1{
+    margin-right: 5%;
+}
+
+#mainText{
+    width: 400px;
+    text-align: left;
+    margin-top: 5%;
+}
+
+
+.keyPoint{
+    display: flex;
+}
+
+.keyText{
+    display: flex;
+    margin: 0% 5% 7% 5%;
+}
+.textMargin{
+    margin: 2% 5% 0% 5%;
+}
+.numberText{
+    font-size: 2.5rem;
+    color: hsl(29, 100%, 83%);
+}
+
+footer{
+    margin: 3% 0%;
+}
+#footerText{
+    padding: 5px;
+    font-size: 0.8rem;
+}
